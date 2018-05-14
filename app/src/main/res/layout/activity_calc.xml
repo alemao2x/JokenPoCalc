@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CalcActivity">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:text="Prova"
+        android:textSize="18sp"
+        tools:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edtProva"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="24sp"
+        tools:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:text="Lista"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edtLista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:text="Projeto"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edtProjeto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtNotaText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sua nota é:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtNota"
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:textSize="80sp" />
+
+    <Button
+        android:id="@+id/btnCalc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular" />
+
+</LinearLayout>
